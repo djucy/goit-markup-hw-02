@@ -1,0 +1,206 @@
+:root {
+}
+
+body {
+  font-family: "Roboto", "Raleway", sans-serif;
+  font-style: normal;
+  color: #212121;
+}
+
+/* Navigation section */
+
+/* Logo */
+.logo {
+  font-family: Raleway;
+  font-weight: 700px;
+  font-size: 26px;
+  line-height: 1.192;
+  /* identical to box height */
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+.web-logo {
+  color: #2196f3;
+}
+.studio-logo {
+  color: #000000;
+}
+
+/* Navigation */
+.nav-list,
+.nav-contact {
+  list-style-type: none;
+}
+
+.nav-contact-link,
+.nav-link,
+.studio,
+.portfolio {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+
+  color: #757575;
+}
+.nav .nav-link {
+  color: #212121;
+}
+.nav-contact-link:hover,
+.nav-contact-link:focus,
+.nav-link:hover,
+.nav-link:focus,
+.address-contact-color:hover,
+.address-contact-color:focus {
+  color: #2196f3;
+}
+.nav .studio,
+.nav .portfolio {
+  color: #2196f3;
+}
+/* Main section */
+
+.title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.363;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.container-title {
+  background: #2f303a;
+}
+
+.button-service {
+  cursor: pointer;
+
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+  font-weight: 700px;
+  font-size: 16px;
+  line-height: 1.875;
+  padding: 10px 32px 10px 32px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  color: #ffffff;
+}
+
+/* Our advantage section */
+.caption {
+  font-weight: 700px;
+  font-size: 36px;
+  line-height: 1.166px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.list-advantage {
+  list-style-type: none;
+}
+.caption-advantage {
+  font-weight: 700px;
+  font-size: 14px;
+  line-height: 0.875;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.text-advantage {
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+/* What are we doing section */
+.list-images {
+  list-style-type: none;
+}
+/* Our team */
+.name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.187;
+  letter-spacing: 0.03em;
+}
+.duties {
+  font-weight: 400px;
+  font-size: 16px;
+  line-height: 1.187;
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+/* Footer */
+.footer .studio-logo {
+  color: #ffffff;
+}
+.container-footer {
+  background: #2f303a;
+}
+.address {
+  list-style-type: none;
+  font-style: normal;
+}
+
+.address-contact {
+  text-decoration: none;
+  font-weight: 400px;
+  font-size: 14px;
+  line-height: 1.714;
+
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+}
+.address-contact-color {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.list-button {
+  list-style-type: none;
+}
+.button-item {
+  padding: 6px 22px;
+  background: #f5f4fa;
+  border-radius: 4px;
+  border: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.list-button .button-all {
+  background: #2196f3;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  color: #ffffff;
+}
+.portfolio-list {
+  list-style-type: none;
+}
+.portfolio-item-caption {
+  font-weight: 700px;
+  font-size: 18px;
+  line-height: 2;
+  /* identical to box height, or 200% */
+  letter-spacing: 0.06em;
+}
+.portfolio-item-text {
+  font-weight: 400px;
+  font-size: 16px;
+  line-height: 1.875;
+  /* identical to box height, or 187% */
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
